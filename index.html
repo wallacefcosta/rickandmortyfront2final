@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="/src/css/reset.css" />
+    <link rel="stylesheet" href="/src/css/style.css" />
+  </head>
+  <body>
+    <header class="header-home">
+      <figure class="header-homeImg">
+        <img class="header-homeContente" src="/src/img/logo.svg" />
+      </figure>
+      <h1>API de Rick and Morty</h1>
+
+      <div id="container-search">
+        <img src="/src/img/find.webp"  id="lupa" />
+
+        <input type="text" id="search" placeholder="Pesquise" />
+      </div>
+    </header>
+
+    <main>
+      <section id="container"></section>
+      <section id="pagination"></section>
+    </main>
+
+    <img
+      src="/src/img/rick-and-morty-portal.png"
+      id="logo"
+    />
+    <footer>
+        <div class="btnContainer"></div>
+        <div id="infoGerais"></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/src/app.js"></script>
+  </body>
+</html>
